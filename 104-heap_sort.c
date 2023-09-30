@@ -6,6 +6,7 @@
  * @a: integer a
  * @b: integer b
  **/
+
 void swap(int *a, int *b)
 {
 	int t = *a;

@@ -6,6 +6,7 @@
  *@size: bit size of each element
  *Return: pointer to memory assignement
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i = 0;
@@ -20,6 +21,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		p[i] = '\0';
 	return (p);
 }
+
 /**
  *merge - make a merge
  *@arr: one from start to mid
@@ -29,6 +31,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  *@mid: array middle
  *@end: last element position
  **/
+
 void merge(int *arr, int *tmp, int start, int mid, int end)
 {
 	/*  sizes and temp arrays */

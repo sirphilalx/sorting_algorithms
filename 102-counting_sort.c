@@ -6,6 +6,7 @@
  *@size: bit size of each element
  *Return: pointer to memory assignement
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i = 0;
@@ -20,6 +21,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		p[i] = '\0';
 	return (p);
 }
+
 /**
  * counting_sort - this is a counting sort method implementation
  * @array: array to sort

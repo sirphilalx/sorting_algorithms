@@ -6,6 +6,7 @@
  *@list: node list
  *Return: return a pointer to a node which was enter it
  */
+
 listint_t *swap_node(listint_t *node, listint_t **list)
 {
 	listint_t *back = node->prev, *current = node;
@@ -23,6 +24,7 @@ listint_t *swap_node(listint_t *node, listint_t **list)
 		*list = current;
 	return (current);
 }
+
 /**
  *cocktail_sort_list - this is a cocktail sort implementation
  *working on a double linked lists

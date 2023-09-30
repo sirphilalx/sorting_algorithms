@@ -6,6 +6,7 @@
 * @n: size of the array
 * Return: array
 */
+
 int getMax(int *arr, int n)
 {
 	int i, max = arr[0];

@@ -1,5 +1,5 @@
-#ifndef DECK_H
-#define DECK_H
+#ifndef DECK_H_
+#define DECK_H_
 
 /**
  * enum kind_e - card kind
@@ -8,6 +8,7 @@
  * @CLUB: club kind
  * @DIAMOND: diamond kind
  */
+
 typedef enum kind_e
 {
 	SPADE = 0,
@@ -44,4 +45,4 @@ typedef struct deck_node_s
 } deck_node_t;
 
 void sort_deck(deck_node_t **deck);
-#endif
+#endif DECK_H_
